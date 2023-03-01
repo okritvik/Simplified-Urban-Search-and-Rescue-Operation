@@ -9,12 +9,12 @@
   
   <node pkg="move_base" type="move_base" respawn="false" name="follower_move_base" output="screen">
     <param name="base_local_planner" value="dwa_local_planner/DWAPlannerROS" />
-    <rosparam file="$(find final_project)/param/costmap_common_params_follower.yaml" command="load" ns="global_costmap" />
-    <rosparam file="$(find final_project)/param/costmap_common_params_follower.yaml" command="load" ns="local_costmap" />
-    <rosparam file="$(find final_project)/param/local_costmap_params_follower.yaml" command="load" />
-    <rosparam file="$(find final_project)/param/global_costmap_params_follower.yaml" command="load" />
-    <rosparam file="$(find final_project)/param/dwa_local_planner_params.yaml" command="load" />
-    <rosparam file="$(find final_project)/param/move_base_params.yaml" command="load" />
+    <rosparam file="$(find urban_search_rescue)/param/costmap_common_params_follower.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find urban_search_rescue)/param/costmap_common_params_follower.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find urban_search_rescue)/param/local_costmap_params_follower.yaml" command="load" />
+    <rosparam file="$(find urban_search_rescue)/param/global_costmap_params_follower.yaml" command="load" />
+    <rosparam file="$(find urban_search_rescue)/param/dwa_local_planner_params.yaml" command="load" />
+    <rosparam file="$(find urban_search_rescue)/param/move_base_params.yaml" command="load" />
     <param name="DWAPlannerROS/min_vel_x" value="0.0" if="$(arg move_forward_only)" />
     <!--
     <rosparam file="$(find multi_turtlebots_nav)/param/global_planner_params.yaml" command="load" />
