@@ -14,9 +14,9 @@ Final Project for the course _ENPM809Y: Introductory Robot Programming (Fall 202
 
 ## Team Members
 
-* Kumara Ritvik Oruganti (UID: 117368963)
-* Adarsh Malapaka (UID: 118119625)
-* Venkata Sai Ram Polina (UID: 118436579)
+* Kumara Ritvik Oruganti (UID: 117368963) okritvik@terpmail.umd.edu
+* Adarsh Malapaka (UID: 118119625) amalapak@terpmail.umd.edu
+* Venkata Sai Ram Polina (UID: 118436579) sairamp@umd.edu
 
 ## Demo
 
@@ -75,7 +75,7 @@ The locations of the ArUco markers for the simulation and test cases are shown b
 ## Developer Documentation
 
 ### Dependencies 
-* [ROS Melodic (roscpp)](http://wiki.ros.org/melodic)
+* [ROS Melodic (roscpp)](http://wiki.ros.org/melodic) or [ROS Noetic (roscpp)](http://wiki.ros.org/noetic)
 * [TurtleBot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/)
 * [aruco_detect](http://wiki.ros.org/aruco_detect)
 * [fiducial_msgs](http://wiki.ros.org/fiducial_msgs)
